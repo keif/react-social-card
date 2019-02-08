@@ -17,7 +17,6 @@ class App extends Component {
 					message={card.message}
 					url={card.url}
 					urlDisplayName={card.urlDisplayName}
-					linkName={linkName}
 				/>
 			</div>
 		);
