@@ -10,6 +10,13 @@ const Card = (props) => (
 			<Headline headline={props.headline} />
 			<CreditBox name={props.name} creditImageURL={props.creditImageURL} />
 		</section>
+		<section className="message">
+			<h4 className="message__headline">{props.headline}</h4>
+			<p className="message__body">{props.message}</p>
+			<a href={props.url} className="message__url">
+				{props.linkName}
+			</a>
+		</section>
 	</div>
 );
 
