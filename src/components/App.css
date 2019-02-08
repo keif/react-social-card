@@ -1,5 +1,7 @@
 :root {
+	--bg-color: #FF8C00;
 	--height: 430px;
+	--main-font-color: #fff;
 	--main-height: 300px;
 	--width: 550px;
 }
@@ -20,7 +22,7 @@
 }
 
 .main {
-	background: orange;
+	background: var(--bg-color);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	display: grid;
@@ -40,7 +42,7 @@
 
 .main__headline {
 	align-self: center;
-	color: #fff;
+	color: var(--main-font-color);
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 	font-size: 42px;
 	font-weight: 400;
@@ -55,7 +57,7 @@
 .credit-box {
 	align-items: center;
 	align-self: flex-end;
-	background: #fff;
+	background: var(--main-font-color);
 	display: flex;
 	grid-column: 1 / -1;
 	grid-row: 3 / 4;
@@ -66,7 +68,7 @@
 }
 
 .credit-box__name {
-	color: orange;
+	color: var(--bg-color);
 	flex: 1;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	font-size: 18px;
